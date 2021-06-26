@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20210726T133343Z" application="Evernote" version="10.16.7">
+  <note>
+    <title>자바스크립트 #11</title>
+    <created>20210626T131957Z</created>
+    <updated>20210626T133208Z</updated>
+    <note-attributes>
+      <author>최지웅</author>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd"><en-note><h1>함수 선언문 vs 함수 표현식</h1><div><br /></div><ol><li><div>함수 선언문 : 어디서든 호출 가능 =&gt; 호이스팅 : 함수를 선언 해 놓고 시작</div></li><li><div>함수 표현식 : 코드에 도달하면 생성</div></li></ol><div><br /></div><h1>화살표 함수 : fungtion 지우기</h1><div><br /></div><ol><li><div>매개변수가  없을 경우 괄호를 지울 수 없음</div></li></ol><div><br /></div><div style="--en-codeblock:true;box-sizing: border-box; padding: 8px; font-family: Monaco, Menlo, Consolas, &quot;Courier New&quot;, monospace; font-size: 12px; color: rgb(51, 51, 51); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; background-color: rgb(251, 250, 248); border: 1px solid rgba(0, 0, 0, 0.14902); background-position: initial initial; background-repeat: initial initial;"><div>let show = () =&gt;{ console.log("show") } </div></div><div><br /></div><ol start="2"><li><div>fungtion 없애기</div></li></ol><div><br /></div><div style="--en-codeblock:true;box-sizing: border-box; padding: 8px; font-family: Monaco, Menlo, Consolas, &quot;Courier New&quot;, monospace; font-size: 12px; color: rgb(51, 51, 51); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; background-color: rgb(251, 250, 248); border: 1px solid rgba(0, 0, 0, 0.14902); background-position: initial initial; background-repeat: initial initial;"><div>const sayHello = (name) =&gt; { </div><div>  const msg = ' Hello , ${name}';</div><div>  console.log{msg);</div><div>};</div></div><div><br /></div><ol start="3"><li><div>return 지우기</div></li></ol><div><br /></div><div style="--en-codeblock:true;box-sizing: border-box; padding: 8px; font-family: Monaco, Menlo, Consolas, &quot;Courier New&quot;, monospace; font-size: 12px; color: rgb(51, 51, 51); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; background-color: rgb(251, 250, 248); border: 1px solid rgba(0, 0, 0, 0.14902); background-position: initial initial; background-repeat: initial initial;"><div>const add = (num1, num2) =&gt;(</div><div>  num1+num2;</div><div>);</div></div><div><br /></div></en-note>      ]]>
+    </content>
+  </note>
+</en-export>
